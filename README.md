@@ -15,7 +15,7 @@
 ## О проекте
 В качестве сборщика использую Vite \
 В проекте используются styled-components 
-В качетсве хостинга, был выбран Netlify[https://magenta-crostata-f7c4b0.netlify.app/] 
+В качетсве хостинга, был выбран (Netlify)[] 
 
 ### How to launch?
 1. Make sure you have `node` and `docker` installed \
