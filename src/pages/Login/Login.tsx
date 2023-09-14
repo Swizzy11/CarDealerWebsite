@@ -6,6 +6,7 @@ import { ComponentWithForm } from '../../layout/ComponentWithForm'
 import styles from './Login.module.scss'
 import { BestCarInscription } from '../../components/BestCarInscription'
 import { BackgroundAnimation } from '../../components/BackgroundAnimation'
+import FordFocus from '../../../public/images/ford-focus-st.jpeg'
 
 export const Login = () => {
 
@@ -44,7 +45,7 @@ export const Login = () => {
                         </Link>
                     </>
                     } 
-                    photoURL={'../../public/images/ford-focus-st.jpeg'} 
+                    photoURL={FordFocus} 
                 />
             </div>
             <BackgroundAnimation />

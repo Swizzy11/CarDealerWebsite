@@ -6,6 +6,7 @@ import styles from './Registration.module.scss'
 import { Line } from '../../components/Line'
 import { BestCarInscription } from '../../components/BestCarInscription'
 import { BackgroundAnimation } from '../../components/BackgroundAnimation'
+import FordFocus from '../../../public/images/ford-focus-st.jpeg'
 
 export const Registration = () => {
     return (
@@ -57,7 +58,7 @@ export const Registration = () => {
                             </Link>
                         </>
                     } 
-                    photoURL={'../../public/images/ford-focus-st.jpeg'} 
+                    photoURL={FordFocus} 
                 />
                 </div>
                 <BackgroundAnimation />

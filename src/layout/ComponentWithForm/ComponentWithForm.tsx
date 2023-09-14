@@ -2,6 +2,8 @@ import { FC, ReactNode } from 'react'
 import { Button } from '../../components/block/Button'
 import styles from './ComponentWithForm.module.scss'
 import { Link } from 'react-router-dom'
+import arrowImg from '../../../public/images/arrow.svg'
+import sedanImg from '../../../public/images/car-sedan-automobile.svg'
 
 type ComponentWithFormProps = {
     title: string,
@@ -22,12 +24,12 @@ export const ComponentWithForm:FC<ComponentWithFormProps> = ({
                     <Link to={'/'} className={styles.btnBack}>
                         <Button type='button' classname='exit'>
                             <b>Главная</b>
-                            <img src="../../../public/images/arrow.svg" alt="" />
+                            <img src={arrowImg} alt="" />
                         </Button>
                     </Link>
                     <h1 className={styles.h1}>
                         <img 
-                            src="../../../public/images/car-sedan-automobile.svg" 
+                            src={sedanImg}
                             alt="" 
                         />
                         {title}
