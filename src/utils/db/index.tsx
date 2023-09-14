@@ -1,17 +1,19 @@
-
+import F150 from '../../../public/images/New-F-150-2024.jpeg'
+import FocusST from '../../../public/images/ford-focus-st.jpeg'
+import Mustang from '../../../public/images/2024-ford-mustang.jpeg'
 export const cardsDB = [
     {
-        imgURL:'../../public/images/New-F-150-2024.jpeg',
+        imgURL:F150,
         title:'Ford', 
         content:'F-150 2024' 
     },
     {
-        imgURL:'../../public/images/ford-focus-st.jpeg',
+        imgURL:FocusST,
         title:'Ford', 
         content:'Focus ST' 
     },
     {
-        imgURL:'../../public/images/2024-ford-mustang.jpeg',
+        imgURL:Mustang,
         title:'Ford', 
         content:'Mustang 2024' 
     }

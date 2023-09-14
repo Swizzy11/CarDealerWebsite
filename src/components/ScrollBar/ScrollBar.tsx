@@ -18,9 +18,9 @@ export const ScrollBar = () => {
         <div className={styles.root}>
             {   
             <ScrollItem 
-                imgURL={`${cardsDB[itemID].imgURL}`} 
-                title={`${cardsDB[itemID].title}`} 
-                content={`${cardsDB[itemID].content}`} 
+                imgURL={cardsDB[itemID].imgURL} 
+                title={cardsDB[itemID].title} 
+                content={cardsDB[itemID].content} 
             />
                 
             }

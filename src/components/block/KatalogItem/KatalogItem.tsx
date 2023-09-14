@@ -1,6 +1,6 @@
 import { FC } from 'react'
 import styles from './KatalogItem.module.scss'
-
+import car from '../../../../public/images/ford-focus-st.jpeg'
 type KatalogItemProps = {
     imgURL: string,
     title: string,
@@ -14,7 +14,7 @@ export const KatalogItem:FC<KatalogItemProps> = ({
 }) => {
     return (
         <div className={styles.root}>
-            <img src={'../../../../public/images/ford-focus-st.jpeg'} alt="" className={styles.img} />
+            <img src={car} alt="" className={styles.img} />
             <h2 className={styles.title}>{title}</h2>
             <main className={styles.content}>{content}</main>
         </div>
