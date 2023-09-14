@@ -1,0 +1,43 @@
+.root {
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: rgb(151, 73, 0);
+    b {
+        margin-left: 2%;
+        z-index: 999;
+        color: rgba(94, 0, 0, 0.411);
+        font-weight: 900;
+        font-size: clamp(3rem, 1vw, 6rem);
+        line-height: 0.75em;
+        text-align: center;
+        text-shadow: 3px 1px 1px #ff9b4ac7, 2px 2px 1px #fb9816, 4px 2px 1px #ff9b4ac7,
+            3px 3px 1px #fb9816, 5px 3px 1px #ff9b4ac7, 4px 4px 1px #fb9816,
+            6px 4px 1px #ff9b4ac7, 5px 5px 1px #fb9816, 7px 5px 1px #ff9b4ac7,
+            6px 6px 1px #fb9816, 8px 6px 1px #ff9b4ac7, 7px 7px 1px #fb9816,
+            9px 7px 1px #ff9b4ac7;
+
+        span {
+            display: block;
+            position: relative;
+
+            &:before {
+            content: attr(data-text);
+                position: absolute;
+                text-shadow: 2px 2px 1px #e97c4a44, -1px -1px 1px #f97d36,
+                    -2px 2px 1px #b65a1d, 1px -1px 1px #f99436;
+                z-index: 1;
+            }
+
+            &:nth-child(1) {
+                padding-right: 2.25rem; 
+            }
+
+            &:nth-child(2) {
+                padding-left: 2.25rem;
+            }
+        }
+        }
+}
+

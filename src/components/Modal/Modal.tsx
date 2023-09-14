@@ -1,6 +1,6 @@
 import { FC, ReactNode } from 'react'
 import styles from './Modal.module.scss'
-import { Button } from '../Button'
+import { Button } from '../block/Button'
 
 type ModalProps = {
     content?: string | number | ReactNode,
@@ -18,7 +18,7 @@ export const Modal:FC<ModalProps> = ({
             <div className={styles.modal}>
                 <header className={styles.header}>
                     <b>{title}</b>
-                    <Button onClick={onClick} classname={'exit'}>X</Button>
+                    <Button onClick={onClick} classname={'exit'} type={'button'}>X</Button>
                 </header>
                 <section className={styles.content}>
                     {content}

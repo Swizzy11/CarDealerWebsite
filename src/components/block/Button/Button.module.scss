@@ -1,0 +1,115 @@
+.menu {
+    min-width: 150px;
+    max-width: 200px;
+    height: 34px;
+    padding: 4px 8px;
+    margin: 5px;
+    font-size: 15px;
+    color: white;
+    background:none;
+    border: 1px solid rgba(255, 255, 255, 0);
+    border-bottom: 1px solid rgb(255, 255, 255);
+    outline: none;
+    text-decoration: none;
+    transition: .1s all;
+    cursor: pointer;
+
+        &:hover {
+            border: 1px solid rgb(184, 73, 0);
+            border-radius: 2px;
+            box-shadow: 2px 2px 0px;
+            color: rgb(255, 102, 0);
+        }
+}
+
+.forComponentWithForm {
+    min-width: 150px;
+    max-width: 200px;
+    height: 34px;
+    padding: 4px 8px;
+    margin: 5px;
+    font-size: 15px;
+    color: black;
+    background:none;
+    border: 1px solid rgba(255, 255, 255, 0);
+    border-bottom: 1px solid black;
+    outline: none;
+    text-decoration: none;
+    transition: .1s all;
+    cursor: pointer;
+
+        &:hover {
+            border: 1px solid rgba(0, 0, 0, 0.5);
+            border-radius: 2px;
+            box-shadow: 2px 2px 0px;
+            color: rgb(94, 0, 0);
+        }
+}
+
+.exit {
+    height: 32px;
+    padding: 4px 8px;
+    margin: 5px;
+    transform: rotate(45deg);
+    font-size: 15px;
+    color: black;
+    background:none;
+    border: 1px solid rgba(255, 255, 255, 0);
+    cursor: pointer;
+    outline: none;
+        b {
+            position: absolute;
+            top: 38px;
+            left: 6px;
+            transform: translateX(-60%) translateY(-60%);
+        }
+        img {
+            fill: white;
+            width: 30px;
+            height: 30px;
+            position: absolute;
+            transform: translateX(-50%) translateY(-50%);
+        }
+        img,b {
+                animation: bounce 2s infinite linear;
+        }
+        
+        @keyframes bounce {
+            0% {transform: translateX(-50%) translateY(-50%)}
+            25% {transform: translateX(-50%) translateY(-65%)}
+            50% {transform: translateX(-50%) translateY(-50%)}
+            75% {transform: translateX(-50%) translateY(-35%)}
+            100% {transform: translateX(-50%) translateY(-50%)}
+        }
+}
+
+
+.flatButton {
+    width: 3%;
+    height: 3px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 1px;
+    border: none;
+    cursor: pointer;
+    margin:0px 3px;
+
+     &:hover {
+        height: 6px;
+        background-color: rgba(255, 255, 255, 0.25);
+        border-radius: 1px;
+     }
+}
+
+
+
+.btnImage {
+    width: 50px;
+    height: 50px;
+    background-color: rgba(255, 255, 255, 0);
+    background-image: url('../../../../public/images/person-button-svgrepo-com.svg');
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: auto;
+    border: none;
+    cursor: pointer;
+}

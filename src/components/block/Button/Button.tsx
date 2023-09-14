@@ -2,6 +2,7 @@ import React, { FC, ReactNode } from "react"
 import styles from './Button.module.scss'
 
 type ButtonProps = {
+    type:  "button" | "submit" | "reset" | undefined,
     children?: ReactNode,
     classname: string,
     onClick?: () => void,
@@ -9,6 +10,7 @@ type ButtonProps = {
 }
 
 export const Button:FC<ButtonProps> = ({
+    type,
     children,
     classname,
     onClick,
@@ -16,7 +18,7 @@ export const Button:FC<ButtonProps> = ({
 }) => {
     return (
         <button 
-            type="button" 
+            type={type} 
             className={styles[classname]}
             onClick={onClick}
             disabled={isActive}

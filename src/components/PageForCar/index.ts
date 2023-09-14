@@ -1,0 +1,1 @@
+export { PageForCar } from './PageForCar'

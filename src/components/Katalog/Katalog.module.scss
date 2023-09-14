@@ -1,0 +1,16 @@
+.root {
+    width: 95%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.content {
+    width: 95%;
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    align-self: center;
+    justify-self: center;
+    gap: 20px;
+}

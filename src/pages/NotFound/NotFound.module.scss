@@ -6,10 +6,12 @@
     align-items: center;
     flex-direction: column;
     text-align: center;
-    font-size: 5vh;
+    font-size: 4vh;
+
+    a {
+        text-decoration: none;
+        font-size: 2vh;
+    }
 }
 
-a {
-    text-decoration: none;
-    font-size: 3vh;
-}
+

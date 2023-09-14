@@ -1,0 +1,21 @@
+.root {
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    padding: 68%;
+    background-color: #E8BA9B;
+    background-image: url('../../../public/images/0fae9567-28e2-4135-a410-054688f16385.jpeg');
+    background-size: cover;
+    filter: blur(5px) brightness(50%);
+    animation: scrollBg 35s linear infinite;
+    z-index: 0;
+}
+
+@keyframes scrollBg {
+    from {
+      transform: translateY(0px);
+    }
+    to {
+      transform: translateY(-330px);
+    }
+  }
