@@ -1,13 +1,13 @@
 import { PayloadAction, createSlice } from "@reduxjs/toolkit";
 import { ICar } from "../../utils/models/ICar";
 
-interface UserState {
+interface CarState {
     cars: ICar[],
     isLoading: boolean,
     error: string
 }
 
-const initialState:UserState = {
+const initialState:CarState = {
     cars: [],
     isLoading: false,
     error: ''

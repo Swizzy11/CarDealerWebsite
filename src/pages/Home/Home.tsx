@@ -20,7 +20,6 @@ export const Home = () => {
             <footer className={styles.footer}>
 
             </footer>
-            <BackgroundAnimation />
         </div>
     )
 }

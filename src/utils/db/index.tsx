@@ -1,6 +1,7 @@
 import F150 from '../../../public/images/New-F-150-2024.jpeg'
 import FocusST from '../../../public/images/ford-focus-st.jpeg'
 import Mustang from '../../../public/images/2024-ford-mustang.jpeg'
+import { ICar } from '../models/ICar'
 export const cardsDB = [
     {
         imgURL:F150,
@@ -18,11 +19,11 @@ export const cardsDB = [
         content:'Mustang 2024' 
     }
 ]
-export const katalogDB = [
-    {imgURL: '', title: '1', content: 'content'},
-    {imgURL: '', title: '2', content: 'content'},
-    {imgURL: '', title: '3', content: 'content'},
-    {imgURL: '', title: '4', content: 'content'},
-    {imgURL: '', title: '4', content: 'content'},
-    {imgURL: '', title: '4', content: 'content'}
+export const katalogDB:ICar[] = [
+    {imgURL: '', carBrand: '1', model: 'content'},
+    {imgURL: '', carBrand: '2', model: 'content'},
+    {imgURL: '', carBrand: '3', model: 'content'},
+    {imgURL: '', carBrand: '4', model: 'content'},
+    {imgURL: '', carBrand: '4', model: 'content'},
+    {imgURL: '', carBrand: '4', model: 'content'}
 ]
