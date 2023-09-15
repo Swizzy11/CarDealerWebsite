@@ -34,3 +34,13 @@
 
     }
 }
+
+
+@media (max-width: 850px) {
+    .root {     
+        font-size: 5vh;
+        left: 2%;
+        bottom: 75%;
+        transform: rotate(-30deg);
+    }
+}
