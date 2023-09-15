@@ -27,9 +27,7 @@
     box-shadow: 2px 2px 2px 2px;
     
     .btnBack {
-        position: absolute;
-        bottom: 74%;
-        left: 35%;
+        margin-left: 80%;
     }
 }
 .photo {
@@ -54,11 +52,6 @@
     .form {
         width: 90%;
         border-radius: 8px 8px 8px 8px;
-
-        .btnBack {
-            left: 90%;
-            bottom: 74%;
-        }
     }
     .photo {
         display: none;
